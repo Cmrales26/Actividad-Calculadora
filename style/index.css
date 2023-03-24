@@ -74,11 +74,6 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-@media screen and (max-width:768px){
-    footer{
-        position: relative;;
-    }
-}
 @media  screen and (max-width:500px){
     .selecionar-acciones h3{
         font-size: 16px;

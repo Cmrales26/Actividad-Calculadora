@@ -20,7 +20,7 @@ const calcular =() =>{
         }else if(operacion.value == '*'){
             resultado.innerHTML = `El resultado de la operacion ${num1.value} * ${num2.value} es igual a ${parseInt(num1.value) * parseInt(num2.value)}`
         }else if(operacion.value == '/'){
-            resultado.innerHTML = `El resultado de la operacion ${num1.value} / ${num2.value} es igual a ${parseInt(num1.value) / parseInt(num2.value)}`
+            resultado.innerHTML = `El resultado de la operacion ${num1.value} / ${num2.value} es igual a ${(parseInt(num1.value) / parseInt(num2.value)).toFixed(3)}`
         }else{
             alert("Error")
         }
